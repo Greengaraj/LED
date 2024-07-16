@@ -1,4 +1,4 @@
-# AmperkaLED API (RUS)
+# LED API (RUS)
 
 ## `class LED(uint8_t pin)`
 Создайте объект класса `LED` для работы со светодиодом.
