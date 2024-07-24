@@ -9,6 +9,7 @@ class LED {
     void ledSet(bool state);
     void ledBrightness(uint8_t value);
     void ledToogle(uint32_t timeOn, uint32_t timeOff);
+    void ledBlink(uint32_t switchTime);
 
   private:
     uint8_t _pin;
@@ -18,4 +19,5 @@ class LED {
     uint32_t _timeOff;
     uint32_t _tmr;
     uint32_t _period;
+    uint32_t _switchTime;
 };
