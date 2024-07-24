@@ -17,3 +17,4 @@ turnOff 		KEYWORD2
 ledSet 			KEYWORD2
 ledBrightness 		KEYWORD2
 ledToogle 		KEYWORD2
+ledBlink 		KEYWORD2

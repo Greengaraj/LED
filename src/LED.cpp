@@ -36,3 +36,11 @@ void LED::ledToogle(uint32_t timeOn, uint32_t timeOff) {
     _state = !_state;
   }
 }
+
+void LED::ledBlink(uint32_t switchTime){
+  _switchTime = switchTime;
+  if(millis() - _tmr >= _switchTime){
+    _tmr = millis();
+    digitalWrite(_pin, !digitalRead(_pin));
+  }
+}
