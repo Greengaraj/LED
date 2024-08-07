@@ -18,3 +18,7 @@ ledSet 			KEYWORD2
 ledBrightness 		KEYWORD2
 ledToogle 		KEYWORD2
 ledBlink 		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
